@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Задания 1 и 2");
         System.out.println();
 
-        Human maksim = new Human("Максим", "Минск", 35, "бренд-менеджера");
+        Human maksim = new Human("   ", "Минск", 35, "бренд-менеджера");
         maksim.greeting();
         Human any = new Human("Аня", "Москва", 29, "методиста образовательных программ");
         any.greeting();
