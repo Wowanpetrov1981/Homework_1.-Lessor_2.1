@@ -3,7 +3,7 @@ import java.time.LocalDate;
 
 public class Human {
 
-    String name;
+   private String name;
     private String town;
 //    int age;
     String job;
@@ -17,13 +17,6 @@ public class Human {
 //        this.town = validOrDefault(town, DEFAULT_STRING_VALUE);
         this.job = validOrDefault(job, DEFAULT_STRING_VALUE);
         setYearOfBirth(yearOfBirth);
-//        this.yearOfBirth = Math.max(yearOfBirth, 0);
-//        this.yearOfBirth = year - age;
-//        if (age >= 0) {
-//            this.age = age;
-//        } else {
-//            this.age = Math.abs(age);
-//        }
 
     }
 

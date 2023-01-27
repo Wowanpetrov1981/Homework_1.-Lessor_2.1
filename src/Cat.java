@@ -1,12 +1,9 @@
 public class Cat {
 
-    String name;
-    int age;
+   private String name;
+    private int age;
 
     Cat(String name, int age) {
-       // if () {
-
-        //}
         this.name = name;
 
         if (age >= 0) {
